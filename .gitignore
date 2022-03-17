@@ -30,7 +30,9 @@
 .pub-cache/
 .pub/
 /build/
-android/
+/android
+/ios
+/lib/api_keys.dart
 
 # Web related
 lib/generated_plugin_registrant.dart
