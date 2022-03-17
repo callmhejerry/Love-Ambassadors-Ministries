@@ -3,7 +3,6 @@ import 'package:lam/Models/bible_models.dart';
 import 'package:lam/api_keys.dart';
 
 class BibleService {
-  static String version = "de4e12af7f28f599-01";
   static Dio dio = Dio();
 
   static Future<List<BibleVersion>?> getBibleVersions() async {
